@@ -7,6 +7,10 @@
 #     end
 #   new_sentence.join(' ')
 # end
+
+
+sentence.split(' ').each do |word|
+  new_sentence.push(word.reverse)
  
  def reverse_each_word(sentence)
    sentence.split.collect {|word| word.reverse}.join(' ')
