@@ -1,6 +1,7 @@
 def reverse_each_word(sentence)
-  sentence.reverse 
-  puts sentence
+  new_sentence = []
+  new_senctence = sentence.reverse 
+  puts new_sentence
 end
 
 
