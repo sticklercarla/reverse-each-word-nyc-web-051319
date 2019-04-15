@@ -6,4 +6,6 @@ def reverse_each_word(sentence)
      new_sentence.push(word.reverse)
     end
    new_sentence.join(' ')
+   sentence.collect {|word| word.reverse}
+   sentence
  end
