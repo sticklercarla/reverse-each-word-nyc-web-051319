@@ -9,8 +9,9 @@ def reverse_each_word(sentence)
  end
  
  def reverse_each_word_with_collect(sentence)
-   new_sentence = []
-   new_sentence = sentence.split(' ')
-   new_sentence.collect {|word| word.reverse}
-   new_sentence.join(' ')
+   sentence.split.collect {|word| word.reverse}
+  # new_sentence = []
+  # new_sentence = sentence.split(' ')
+  # new_sentence.collect {|word| word.reverse}
+  # new_sentence.join(' ')
  end
